@@ -87,6 +87,7 @@ body.loaded .Text-loader{
   font-weight: 400;
   font-style: normal;
     color: rgb(0, 0, 0);
+    
     font-size: 90px;
     padding: 30px;
     position: relative;
@@ -96,8 +97,7 @@ body.loaded .Text-loader{
 
 
 .Contenedor{
-    margin-left: 900%; /* espacio eje x para barra lateral */
-    
+    margin-left: 800%; /* espacio eje x para barra lateral */
     padding: 20px;
     gap: 20px; /* Espacio entre tarjetas */
     width: 100vh; /* el ancho del contenedor */
@@ -140,27 +140,33 @@ body.loaded .Text-loader{
     gap:20px ; /* Espacio entre filas y columnas */
     display: grid; /* Usamos flex para centrar el contenido */
     margin: 0 auto;
-   transform: translateY(-5.1%);
-   height: 80px;
    position: relative;
+   transform: translateY(-1.1%);
     margin-left: 0%;
-    width: 100.7%;
+    width: 100.7%; /**Medidas de ancho*/
+   
+    
    
 }
 .tarjetas-famaglo {
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 20px;
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
     transition: transform 0.3s ease;
-    height:449px;
+    height: 337%;  /**medidas de Largo*/
+   
 }
 
 .Titulo-tarjetas-Famaglo{
     font-size: 50px;
     color: #fcb045;
 }
+
+
+
+
+
 .p-contenido{
     font-size: 22px;
     text-align: start;
@@ -206,7 +212,7 @@ hr {
     }
 .menu-lateral {
     /* Fondo de la barra lateral */
-    background-color: #f1eaea;
+    background-color: #979595;
     
     /* Ancho fijo de la barra lateral */
     width: 220px;
