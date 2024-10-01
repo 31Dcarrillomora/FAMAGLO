@@ -140,7 +140,7 @@ body.loaded .Text-loader{
     gap:20px ; /* Espacio entre filas y columnas */
     display: grid; /* Usamos flex para centrar el contenido */
     margin: 0 auto;
-   transform: translateY(-90.1%);
+   transform: translateY(-5.1%);
    height: 80px;
    position: relative;
     margin-left: 0%;
@@ -157,7 +157,10 @@ body.loaded .Text-loader{
     height:449px;
 }
 
-
+.Titulo-tarjetas-Famaglo{
+    font-size: 50px;
+    color: #fcb045;
+}
 .p-contenido{
     font-size: 22px;
     text-align: start;
