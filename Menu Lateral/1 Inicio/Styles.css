@@ -82,18 +82,7 @@ body.loaded .Text-loader {
 }
 /**---------------------------------------------------------------------------------------------------------------------------*/
 
-/**-----------Texto de cabeza------------------*/
-.text-head {
-  font-family: "Odibee Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(0, 0, 0);
 
-  font-size: 90px;
-  padding: 30px;
-  position: relative;
-  left: 400px;
-}
 /**-----------------------------------------------*/
 
 .Contenedor {
@@ -125,10 +114,6 @@ body.loaded .Text-loader {
   font-size: 50px;
   text-align: center;
 }
-.text-description {
-  font-size: 20px;
-  text-align: start;
-}
 
 /**------------------------------------------------CONTENIDO Famaglo--------------------------------------------------------*/
 .contenedor-famaglo {
@@ -149,18 +134,38 @@ body.loaded .Text-loader {
   height: 337%; /**medidas de Largo*/
 }
 
+/**-----------Texto Principal de Bienvenida------------------*/
+.text-head {
+  font-family: "Abril Fatface", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  padding: 30px;
+  position: relative;
+  left: 545px;
+  transform: scaleY(2) scaleX(2); /* Aumenta la altura del texto al doble */
+  display: inline-block; /* Necesario para aplicar la transformación correctamente */
+  line-height: 5;
+}
+/**-----------Subtitulo------------------*/
 .Titulo-tarjetas-Famaglo {
+  font-family: "Abril Fatface", system-ui;
+  font-weight: 400;
+  font-style: normal;
   font-size: 50px;
   color: #fcb045;
   position: relative;
 }
-
+/**-----------Párrafo------------------*/
 .p-contenido {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 22px;
   text-align: start;
   margin-left: 20px;
 }
-
 /**--------------------------------------------------------------------------------------------------------------------*/
 
 /* -----------------------------Estilos generales de menu Lateral izquierdo------------------------------------------- */
@@ -198,7 +203,7 @@ hr {
   position: relative;
   left: -28px;
   align-items: center;
-  top: 40px;
+  top: 15px;
 }
 .menu-lateral {
   /* Fondo de la barra lateral */
@@ -238,10 +243,14 @@ hr {
   left: -10px;
 }
 /* Estilos para los enlaces dentro del menú */
-.menu a {
-  /* Flexbox para alinear el ícono y el texto en cada enlace */
+.menu a { 
+
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   display: flex; /* Hacemos el enlace un contenedor flex */
   position: relative;
+  top: -20px;
   transform: translateX(-10px); /**Posición x a la derecha o izquierda*/
   /* Espacio interior para hacer que los enlaces sean "clicables" en una zona más amplia */
   padding: 10px; /* Espacio interior del enlace */

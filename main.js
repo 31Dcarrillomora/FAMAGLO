@@ -44,3 +44,4 @@ function applyOutline(element, color, size) {
 for (let i = 0; i < titulos.length; i++) {
     applyOutline(titulos[i], '#000', 5); // Contorno negro de 5px
 }
+
