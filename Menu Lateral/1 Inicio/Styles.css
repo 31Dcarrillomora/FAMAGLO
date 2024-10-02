@@ -172,7 +172,7 @@ body.loaded .Text-loader {
   margin-bottom: 10px; /* Espacio adicional por debajo del logo */
   position: relative;
   right: -1px;
-  top: -20px;
+  top: -5px;
   transform: translateX(-26px);
   width: 200px;
   /* Tamaño del ícono */
@@ -241,11 +241,10 @@ hr {
 .menu a {
   /* Flexbox para alinear el ícono y el texto en cada enlace */
   display: flex; /* Hacemos el enlace un contenedor flex */
-  align-items: center; /* Centra verticalmente los elementos dentro del enlace */
-
+  position: relative;
+  transform: translateX(-10px); /**Posición x a la derecha o izquierda*/
   /* Espacio interior para hacer que los enlaces sean "clicables" en una zona más amplia */
   padding: 10px; /* Espacio interior del enlace */
-
   /* Eliminamos el subrayado predeterminado de los enlaces */
   text-decoration: none; /* Sin subrayado en el texto */
 
