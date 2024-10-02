@@ -173,7 +173,8 @@ body.loaded .Text-loader {
   position: relative;
   right: -1px;
   top: -20px;
-  width: 90px;
+  transform: translateX(-26px);
+  width: 200px;
   /* Tamaño del ícono */
   font-size: 24px; /* Tamaño del texto para el ícono */
   margin: 30px;
@@ -191,11 +192,11 @@ body.loaded .Text-loader {
 hr {
   background-color: rgb(5, 4, 4);
   opacity: 80%;
-  width: 150%;
+  width: 95%;
   height: 2px; /* Tamaño de la línea */
   border: none;
   position: relative;
-  left: -45px;
+  left: -28px;
   align-items: center;
   top: 40px;
 }
@@ -277,13 +278,14 @@ hr {
 /**------------------------------------------Pie de Página----------------------------------------------------------------------------*/
 
 footer {
-  background-color: #f1eaea;
+  background-color: #979595;
   color: #000000; /* Texto*/
   text-align: center;
   position: relative;
   left: 260px;
   padding: 20px 0; /* Espacio interno dentro del pie de página */
   width: 115.41%; /* Añadido para mantener consistencia */
+  height: 70px;
   transform: translateY(48px);
 }
 
