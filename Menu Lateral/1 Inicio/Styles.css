@@ -98,7 +98,8 @@ body.loaded .Text-loader{
 
 .Contenedor{
     margin-left: 800%; /* espacio eje x para barra lateral */
-    padding: 20px;
+    padding: 10px;
+    margin: 1;
     gap: 20px; /* Espacio entre tarjetas */
     width: 100vh; /* el ancho del contenedor */
 }
@@ -112,7 +113,7 @@ body.loaded .Text-loader{
     transition: transform 0.3s ease;
     width: 920px; /* Limitar el ancho de las tarjetas */
     height: 800px;
-    transform: translateX(30%);
+    transform: translateX(32.5%);
     
 }
 
@@ -161,15 +162,14 @@ body.loaded .Text-loader{
 .Titulo-tarjetas-Famaglo{
     font-size: 50px;
     color: #fcb045;
+    position: relative;
 }
-
-
-
 
 
 .p-contenido{
     font-size: 22px;
     text-align: start;
+    margin-left: 20px;
 }
 
 /**--------------------------------------------------------------------------------------------------------------------*/
