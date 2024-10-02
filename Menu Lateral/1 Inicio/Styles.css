@@ -1,7 +1,7 @@
 html {
-  background-color: rgb(255, 255, 255);
+ background-color: #ffffff;
   background-size: 100%;
-  width: fit-content;
+  width: 100%;
 }
 
 /**-------------------------------------------Loader-------------------------------------------------------------------------*/
@@ -131,7 +131,7 @@ body.loaded .Text-loader {
   text-align: center;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
   transition: transform 0.3s ease;
-  height: 337%; /**medidas de Largo*/
+  height: 254%; /**medidas de Largo*/
 }
 
 /**-----------Texto Principal de Bienvenida------------------*/
@@ -202,13 +202,11 @@ hr {
   border: none;
   position: relative;
   left: -28px;
-  align-items: center;
-  top: 15px;
+  transform: translateY(0px);
 }
 .menu-lateral {
   /* Fondo de la barra lateral */
-  background-color: #979595;
-
+   background-color: #979595;
   /* Ancho fijo de la barra lateral */
   width: 220px;
 
@@ -292,9 +290,9 @@ footer {
   position: relative;
   left: 260px;
   padding: 20px 0; /* Espacio interno dentro del pie de página */
-  width: 115.41%; /* Añadido para mantener consistencia */
+  width: 81.1%; /* Añadido para mantener consistencia */
   height: 70px;
-  transform: translateY(48px);
+  transform: translateY(120px);
 }
 
 a {
