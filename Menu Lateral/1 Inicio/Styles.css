@@ -1,22 +1,22 @@
 html {
-    background-color:rgb(255, 255, 255) ;
-    background-size: 100%;
-    width: fit-content;
+  background-color: rgb(255, 255, 255);
+  background-size: 100%;
+  width: fit-content;
 }
 
 /**-------------------------------------------Loader-------------------------------------------------------------------------*/
-.contenido1{
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s 5s, opacity 1s ease-in-out;
+.contenido1 {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 5s, opacity 1s ease-in-out;
 }
 /**-----------------------Loader 1-----------------------------------------*/
 .loader {
   width: 50px;
   height: 4px;
   width: 130px;
-  --c:no-repeat linear-gradient(#000000 0 0);
-  background: var(--c),var(--c),#d7b8fc;
+  --c: no-repeat linear-gradient(#000000 0 0);
+  background: var(--c), var(--c), #d7b8fc;
   background-size: 60% 100%;
   animation: l 1s linear infinite, fadeout 5s forwards;
   position: fixed;
@@ -26,451 +26,439 @@ html {
 }
 
 @keyframes l {
-    0%   {background-position:-150% 0,-150% 0}
-    66%  {background-position: 250% 0,-150% 0}
-    100% {background-position: 250% 0, 250% 0}
+  0% {
+    background-position: -150% 0, -150% 0;
   }
-  @keyframes fadeout {
-    
-    100%{opacity:0 ;}
+  66% {
+    background-position: 250% 0, -150% 0;
+  }
+  100% {
+    background-position: 250% 0, 250% 0;
+  }
+}
+@keyframes fadeout {
+  100% {
+    opacity: 0;
+  }
 }
 
 body.loaded .contenido1 {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 /**----------------------Loader imagen 2------------------------------------------*/
-.loader-imag{
-    width: 90px; 
-    height: auto; 
-    position: fixed;
-    top: 190px;
-    left: 700px;
-    opacity: 100%;
-    visibility: visible;
-    animation: fadeout 7s forwards; /* Solo la animación de desvanecerse */
-    /**animation: l 1s linear infinite, fadeout 5s forwards;**/
-    
-
+.loader-imag {
+  width: 90px;
+  height: auto;
+  position: fixed;
+  top: 190px;
+  left: 700px;
+  opacity: 100%;
+  visibility: visible;
+  animation: fadeout 7s forwards; /* Solo la animación de desvanecerse */
+  /**animation: l 1s linear infinite, fadeout 5s forwards;**/
 }
-body.loaded .loader-imag{
-    visibility: visible;
-    opacity: 1;
-
+body.loaded .loader-imag {
+  visibility: visible;
+  opacity: 1;
 }
 /**----------------------texto FAMAGLO 3------------------------------------------*/
-.Text-loader{
-    font-family: "germania One",system-ui;
-    font-size: 30px;
-    width: 90px; 
-    height: auto; 
-    position: fixed;
-    top: 280px;
-    left: 695px;
-    opacity: 100%;
-    visibility: visible;
-    animation: fadeout 7s forwards;
+.Text-loader {
+  font-family: "germania One", system-ui;
+  font-size: 30px;
+  width: 90px;
+  height: auto;
+  position: fixed;
+  top: 280px;
+  left: 695px;
+  opacity: 100%;
+  visibility: visible;
+  animation: fadeout 7s forwards;
 }
 
-body.loaded .Text-loader{
-    visibility: visible;
-    opacity: 1;
+body.loaded .Text-loader {
+  visibility: visible;
+  opacity: 1;
 }
 /**---------------------------------------------------------------------------------------------------------------------------*/
 
-
-
-
 /**-----------Texto de cabeza------------------*/
-.text-head{
-    font-family: "Odibee Sans", sans-serif;
+.text-head {
+  font-family: "Odibee Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-    color: rgb(0, 0, 0);
-    
-    font-size: 90px;
-    padding: 30px;
-    position: relative;
-    left: 400px;
+  color: rgb(0, 0, 0);
+
+  font-size: 90px;
+  padding: 30px;
+  position: relative;
+  left: 400px;
 }
 /**-----------------------------------------------*/
 
-
-.Contenedor{
-    margin-left: 800%; /* espacio eje x para barra lateral */
-    padding: 10px;
-    margin: 1;
-    gap: 20px; /* Espacio entre tarjetas */
-    width: 100vh; /* el ancho del contenedor */
+.Contenedor {
+  margin-left: 800%; /* espacio eje x para barra lateral */
+  padding: 10px;
+  margin: 1;
+  gap: 20px; /* Espacio entre tarjetas */
+  width: 100vh; /* el ancho del contenedor */
 }
 /**-----------------------------------configuración de tarjetas-----------------------------------*/
-.tarjetas{ 
-    background-color: #979595;
-    border-radius: 10px;
-    padding: 30px;
-    text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
-    transition: transform 0.3s ease;
-    width: 920px; /* Limitar el ancho de las tarjetas */
-    height: 800px;
-    transform: translateX(32.5%);
-    
+.tarjetas {
+  background-color: #979595;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+  transition: transform 0.3s ease;
+  width: 920px; /* Limitar el ancho de las tarjetas */
+  height: 800px;
+  transform: translateX(32.5%);
 }
-
 
 /**---------------------------Contenido---------------------------------*/
 
-
-
-
-
 .text-tarjeta {
-    font-family: "Odibee Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-    text-align: center;
+  font-family: "Odibee Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
 }
 .text-description {
-    font-size: 20px;
-    text-align: start;
+  font-size: 20px;
+  text-align: start;
 }
 
 /**------------------------------------------------CONTENIDO Famaglo--------------------------------------------------------*/
 .contenedor-famaglo {
-    gap:20px ; /* Espacio entre filas y columnas */
-    display: grid; /* Usamos flex para centrar el contenido */
-    margin: 0 auto;
-   position: relative;
-   transform: translateY(-1.1%);
-    margin-left: 0%;
-    width: 100.7%; /**Medidas de ancho*/
-   
-    
-   
+  gap: 20px; /* Espacio entre filas y columnas */
+  display: grid; /* Usamos flex para centrar el contenido */
+  margin: 0 auto;
+  position: relative;
+  transform: translateY(-1.1%);
+  margin-left: 0%;
+  width: 100.7%; /**Medidas de ancho*/
 }
 .tarjetas-famaglo {
-    background-color: #ffffff;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
-    transition: transform 0.3s ease;
-    height: 337%;  /**medidas de Largo*/
-   
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+  transition: transform 0.3s ease;
+  height: 337%; /**medidas de Largo*/
 }
 
-.Titulo-tarjetas-Famaglo{
-    font-size: 50px;
-    color: #fcb045;
-    position: relative;
+.Titulo-tarjetas-Famaglo {
+  font-size: 50px;
+  color: #fcb045;
+  position: relative;
 }
 
-
-.p-contenido{
-    font-size: 22px;
-    text-align: start;
-    margin-left: 20px;
+.p-contenido {
+  font-size: 22px;
+  text-align: start;
+  margin-left: 20px;
 }
 
 /**--------------------------------------------------------------------------------------------------------------------*/
 
-
 /* -----------------------------Estilos generales de menu Lateral izquierdo------------------------------------------- */
 .logo {
-    /* Flexbox para alinear el ícono y el texto en línea */
-    display: grid;
-   /* align-items: center; /* Centra verticalmente los elementos dentro de este contenedor */
-    /* Margen inferior para separar el logo del resto del contenido */
-    margin-bottom: 10px; /* Espacio adicional por debajo del logo */
-    position:relative;
-    right: -1px;
-    top:-20px;
-    width: 90px;
-    /* Tamaño del ícono */
-    font-size: 24px; /* Tamaño del texto para el ícono */
-    margin: 30px;
-    padding: 5;
+  /* Flexbox para alinear el ícono y el texto en línea */
+  display: grid;
+  /* align-items: center; /* Centra verticalmente los elementos dentro de este contenedor */
+  /* Margen inferior para separar el logo del resto del contenido */
+  margin-bottom: 10px; /* Espacio adicional por debajo del logo */
+  position: relative;
+  right: -1px;
+  top: -20px;
+  width: 90px;
+  /* Tamaño del ícono */
+  font-size: 24px; /* Tamaño del texto para el ícono */
+  margin: 30px;
+  padding: 5;
 }
-.text-name-marca{
-transform: translateY(-50px);
-margin-bottom: -50px; /** Espacio adicional por debajo del texto **/
-font-weight:bold; /** Negrita el texto **/
-text-align: center; /** Centra el texto **/
-font-size: 30px; /**Tamaño del texto **/
+.text-name-marca {
+  transform: translateY(-50px);
+  margin-bottom: -50px; /** Espacio adicional por debajo del texto **/
+  font-weight: bold; /** Negrita el texto **/
+  text-align: center; /** Centra el texto **/
+  font-size: 30px; /**Tamaño del texto **/
+  color: #ffffff;
 }
 /*---------Linea debajo del texto-------------*/
 hr {
-    background-color: rgb(5, 4, 4);
-    opacity: 80%;
-    width: 150%;
-    height: 2px; /* Tamaño de la línea */
-    border: none;
-    position: relative;
-    left: -45px;
-    align-items: center;
-    top: 40px;
-    }
+  background-color: rgb(5, 4, 4);
+  opacity: 80%;
+  width: 150%;
+  height: 2px; /* Tamaño de la línea */
+  border: none;
+  position: relative;
+  left: -45px;
+  align-items: center;
+  top: 40px;
+}
 .menu-lateral {
-    /* Fondo de la barra lateral */
-    background-color: #979595;
-    
-    /* Ancho fijo de la barra lateral */
-    width: 220px;
-    
-    /* Espacio interior alrededor del contenido */
-    padding: 30px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100vh;
-    
-    /* Usamos CSS Grid para organizar las secciones de la barra (logo, menú y usuario) */
-    display: grid;
-    
-    /* El grid tiene 3 filas: auto (tamaño automático para el logo), 1fr (ocupa todo el espacio disponible para el menú), y auto para la parte inferior (usuario) */
-    grid-template-rows: auto 1fr auto;
-    z-index: 1;
-    
+  /* Fondo de la barra lateral */
+  background-color: #979595;
+
+  /* Ancho fijo de la barra lateral */
+  width: 220px;
+
+  /* Espacio interior alrededor del contenido */
+  padding: 30px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+
+  /* Usamos CSS Grid para organizar las secciones de la barra (logo, menú y usuario) */
+  display: grid;
+
+  /* El grid tiene 3 filas: auto (tamaño automático para el logo), 1fr (ocupa todo el espacio disponible para el menú), y auto para la parte inferior (usuario) */
+  grid-template-rows: auto 1fr auto;
+  z-index: 1;
 }
 /* Estilos para la lista del menú principal */
 .menu {
-    /* Eliminamos las viñetas de la lista */
-    list-style: none; /* Sin viñetas en la lista */  
-    /* Eliminamos el padding predeterminado */
-    padding: 0; /* Sin espacio interior en la lista */
+  /* Eliminamos las viñetas de la lista */
+  list-style: none; /* Sin viñetas en la lista */
+  /* Eliminamos el padding predeterminado */
+  padding: 0; /* Sin espacio interior en la lista */
 }
 /* Estilos para cada elemento de la lista */
 .menu li {
-    /* Espacio inferior entre cada opción del menú */
-    margin-bottom: 10px; /* Espacio adicional por debajo de cada elemento de menú */
-    position: relative;
-    left: -10px;
+  /* Espacio inferior entre cada opción del menú */
+  margin-bottom: 10px; /* Espacio adicional por debajo de cada elemento de menú */
+  position: relative;
+  left: -10px;
 }
 /* Estilos para los enlaces dentro del menú */
 .menu a {
-    /* Flexbox para alinear el ícono y el texto en cada enlace */
-    display: flex; /* Hacemos el enlace un contenedor flex */
-    align-items: center; /* Centra verticalmente los elementos dentro del enlace */
-    
-    /* Espacio interior para hacer que los enlaces sean "clicables" en una zona más amplia */
-    padding: 10px; /* Espacio interior del enlace */
-    
-    /* Eliminamos el subrayado predeterminado de los enlaces */
-    text-decoration: none; /* Sin subrayado en el texto */
-    
-    /* Color del texto */
-    color: #ffffff; /* Color blanco para el texto */
-    
-    /* Bordes redondeados para un mejor aspecto visual */
-    border-radius: 5px; /* Esquinas redondeadas */
-    
-    /* Transición suave para cambios de color de fondo */
-    transition: background-color 0.3s ease; /* Efecto de transición para el color de fondo */
-    
-    /* Establecemos el color de fondo de los enlaces */
-    background-color: #000000; /* Fondo negro para los enlaces */
+  /* Flexbox para alinear el ícono y el texto en cada enlace */
+  display: flex; /* Hacemos el enlace un contenedor flex */
+  align-items: center; /* Centra verticalmente los elementos dentro del enlace */
+
+  /* Espacio interior para hacer que los enlaces sean "clicables" en una zona más amplia */
+  padding: 10px; /* Espacio interior del enlace */
+
+  /* Eliminamos el subrayado predeterminado de los enlaces */
+  text-decoration: none; /* Sin subrayado en el texto */
+
+  /* Color del texto */
+  color: #ffffff; /* Color blanco para el texto */
+
+  /* Bordes redondeados para un mejor aspecto visual */
+  border-radius: 5px; /* Esquinas redondeadas */
+
+  /* Transición suave para cambios de color de fondo */
+  transition: background-color 0.3s ease; /* Efecto de transición para el color de fondo */
+
+  /* Establecemos el color de fondo de los enlaces */
+  background-color: #000000; /* Fondo negro para los enlaces */
 }
 /* Estilos para los submenús dentro de los elementos del menú */
 .submenu {
-    /* Los submenús no se muestran por defecto */
-    display: none; /* Ocultar los submenús inicialmente */
+  /* Los submenús no se muestran por defecto */
+  display: none; /* Ocultar los submenús inicialmente */
 }
 
 /* Mostrar el submenú al pasar el ratón sobre el elemento del menú */
 .menu li:hover .submenu {
-    /* Mostramos el submenú al hacer hover sobre el elemento del menú */
-    display: block; /* Cambiamos a block para mostrar el submenú */
-    
-    /* Quitamos las viñetas del submenú */
-    list-style: none; /* Sin viñetas en el submenú */
+  /* Mostramos el submenú al hacer hover sobre el elemento del menú */
+  display: block; /* Cambiamos a block para mostrar el submenú */
+
+  /* Quitamos las viñetas del submenú */
+  list-style: none; /* Sin viñetas en el submenú */
 }
 /**------------------------------------------Pie de Página----------------------------------------------------------------------------*/
 
 footer {
-   
-    background-color: #f1eaea; 
-    color: #000000; /* Texto*/
-    text-align: center; 
-    position: relative;
-    left: 260px;
-    padding: 20px 0; /* Espacio interno dentro del pie de página */
-    width: 115.41%; /* Añadido para mantener consistencia */
-    transform: translateY(48px);
-} 
-
-a {
-    text-decoration: none;
+  background-color: #f1eaea;
+  color: #000000; /* Texto*/
+  text-align: center;
+  position: relative;
+  left: 260px;
+  padding: 20px 0; /* Espacio interno dentro del pie de página */
+  width: 115.41%; /* Añadido para mantener consistencia */
+  transform: translateY(48px);
 }
 
-.copyright{
+a {
+  text-decoration: none;
+}
 
-    color: rgb(0, 0, 0);
+.copyright {
+  color: rgb(0, 0, 0);
 }
 
 .copyright:hover {
-    text-decoration: none;
-    font-size: 20px;
-    color: #9708f7 !important;
-    transition: color 0.2s;
-    
-    }
+  text-decoration: none;
+  font-size: 20px;
+  color: #9708f7 !important;
+  transition: color 0.2s;
+}
 
 footer .social-media a {
-    color: #007bff; /* texto */
-    margin: 0 10px; /* Espacio alrededor de cada enlace */
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-
+  color: #007bff; /* texto */
+  margin: 0 10px; /* Espacio alrededor de cada enlace */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
 }
 
 .social-media {
-    text-align: center; /* Centra los enlaces horizontalmente */
-    margin-top: 20px; /* Margen superior */
+  text-align: center; /* Centra los enlaces horizontalmente */
+  margin-top: 20px; /* Margen superior */
 }
 
 .social-link.youtube:hover {
-    color: #f70035 !important; /* efecto de cambiar de color al pasar el mouse */
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    margin-right: 10px; /* Espacio entre los enlaces */
-    font-size: 18px; 
-    transition: color 0.3s; /* Transición suave para el cambio de color */
+  color: #f70035 !important; /* efecto de cambiar de color al pasar el mouse */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  margin-right: 10px; /* Espacio entre los enlaces */
+  font-size: 18px;
+  transition: color 0.3s; /* Transición suave para el cambio de color */
 }
 .social-link.facebook:hover {
-    color: #007bff !important; /* efecto de cambiar de color al pasar el mouse */
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    margin-right: 10px; /* Espacio entre los enlaces */
-    font-size: 18px; 
-    transition: color 0.3s; /* Transición suave para el cambio de color */
+  color: #007bff !important; /* efecto de cambiar de color al pasar el mouse */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  margin-right: 10px; /* Espacio entre los enlaces */
+  font-size: 18px;
+  transition: color 0.3s; /* Transición suave para el cambio de color */
 }
 .social-link.instagram:hover {
-    background: #833ab4;
-    background: linear-gradient(
-      to right,
-      #833ab4,#fd1d1d,#fcb045 );
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    margin-right: 10px; /* Espacio entre los enlaces */
-    font-size: 18px; 
-    transition: color 0.3s; /* Transición suave para el cambio de color */
+  background: #833ab4;
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  margin-right: 10px; /* Espacio entre los enlaces */
+  font-size: 18px;
+  transition: color 0.3s; /* Transición suave para el cambio de color */
 }
-
 
 .social-link.facebook {
-    color: #000000; /* texto */
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    margin-right: 10px; /* Espacio entre los enlaces */
-    font-size: 18px; 
-    transition: color 0.3s; /* Transición suave para el cambio de color */
+  color: #000000; /* texto */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  margin-right: 10px; /* Espacio entre los enlaces */
+  font-size: 18px;
+  transition: color 0.3s; /* Transición suave para el cambio de color */
 }
 .social-link.youtube {
-    color: #000000; /* texto */
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    margin-right: 10px; /* Espacio entre los enlaces */
-    font-size: 18px; 
-    transition: color 0.3s; /* Transición suave para el cambio de color */
+  color: #000000; /* texto */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  margin-right: 10px; /* Espacio entre los enlaces */
+  font-size: 18px;
+  transition: color 0.3s; /* Transición suave para el cambio de color */
 }
 
 .social-link.instagram {
-    color: #000000; /* Texto */
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    margin-right: 10px; /* Espacio entre los enlaces */
-    font-size: 18px; 
-    transition: color 0.3s; /* Transición suave para el cambio de color */
+  color: #000000; /* Texto */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  margin-right: 10px; /* Espacio entre los enlaces */
+  font-size: 18px;
+  transition: color 0.3s; /* Transición suave para el cambio de color */
 }
 
 .social-link.linkedin {
-    color: #000000; /* Color de LinkedIn */
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    margin-right: 10px; /* Espacio entre los enlaces */
-    font-size: 18px; /* Tamaño de fuente */
-    transition: color 0.3s; /* Transición suave para el cambio de color */
+  color: #000000; /* Color de LinkedIn */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  margin-right: 10px; /* Espacio entre los enlaces */
+  font-size: 18px; /* Tamaño de fuente */
+  transition: color 0.3s; /* Transición suave para el cambio de color */
 }
 /*-----------------------------------------------------------------------------------------------------------------------------*/
-
 
 /*-------------------------------------Dispositivos Responsive------------------------------------------------------------*/
 
 /* desconocido (más de 100px) */
 @media (min-width: 100px) {
-    .Contenedor {
-        display: grid;
-        grid-template-columns: 350px; /* Cuatro columnas de 200px */
-            }}
+  .Contenedor {
+    display: grid;
+    grid-template-columns: 350px; /* Cuatro columnas de 200px */
+  }
+}
 
 /* desconocido (más de 200px) */
 @media (min-width: 200px) {
-    .Contenedor {
-        display: grid;
-        grid-template-columns:350px; /* Cuatro columnas de 200px */
-            }}
+  .Contenedor {
+    display: grid;
+    grid-template-columns: 350px; /* Cuatro columnas de 200px */
+  }
+}
 
 /* desconocido (más de 300px) */
 @media (min-width: 300px) {
-    .Contenedor {
-        display: grid;
-        grid-template-columns: 350px; /* Cuatro columnas de 200px */
-            }}
+  .Contenedor {
+    display: grid;
+    grid-template-columns: 350px; /* Cuatro columnas de 200px */
+  }
+}
 
 /* desconocido (más de 400px) */
 @media (min-width: 400px) {
-    .Contenedor {
-        display: grid;
-        grid-template-columns: 350px; /* Cuatro columnas de 200px */
-            }}
-                
+  .Contenedor {
+    display: grid;
+    grid-template-columns: 350px; /* Cuatro columnas de 200px */
+  }
+}
 
 /* desconocido (más de 500px) */
 @media (min-width: 500px) {
-    .Contenedor {
-        display: grid;
-        grid-template-columns:  350px; /* Cuatro columnas de 200px */
-            }}
+  .Contenedor {
+    display: grid;
+    grid-template-columns: 350px; /* Cuatro columnas de 200px */
+  }
+}
 
 /* desconocido (más de 600px) */
 @media (min-width: 600px) {
-    .Contenedor {
-        display: grid;
-        grid-template-columns:  350px; /* Cuatro columnas de 200px */
-            }}
-
+  .Contenedor {
+    display: grid;
+    grid-template-columns: 350px; /* Cuatro columnas de 200px */
+  }
+}
 
 /* desconocido (más de 700px) */
 @media (min-width: 700px) {
-    .Contenedor {
-        display: grid;
-        grid-template-columns:  350px; /* Cuatro columnas de 200px */
-            }}
+  .Contenedor {
+    display: grid;
+    grid-template-columns: 350px; /* Cuatro columnas de 200px */
+  }
+}
 
 /* desconocido (más de 800px) */
 @media (min-width: 800px) {
-    .Contenedor {
-        grid-template-columns: 350px ; /* Cuatro columnas de 200px */
-            }}
-        
+  .Contenedor {
+    grid-template-columns: 350px; /* Cuatro columnas de 200px */
+  }
+}
+
 /* desconocido (más de 900px) */
 @media (min-width: 900px) {
-    .Contenedor {
-        grid-template-columns: 350px ; /* Cuatro columnas de 200px */
-            }}
+  .Contenedor {
+    grid-template-columns: 350px; /* Cuatro columnas de 200px */
+  }
+}
 
 /* desconocido (más de 1000px) ----*/
 @media (min-width: 1000px) {
-    .Contenedor {
-        grid-template-columns: 350px ; /* Cuatro columnas de 200px */
-            }}
-
+  .Contenedor {
+    grid-template-columns: 350px; /* Cuatro columnas de 200px */
+  }
+}
 
 /* Para pantallas medianas (tablets) */
 @media (min-width: 768px) {
-    .Contenedor {
-        grid-template-columns:  350px ; /* Cuatro columnas de 200px */
-           }}
+  .Contenedor {
+    grid-template-columns: 350px; /* Cuatro columnas de 200px */
+  }
+}
 
 /* Para pantallas grandes (laptops y escritorios) */
 @media (min-width: 1025px) {
-    .Contenedor {
-        grid-template-columns:  300px; /* Cuatro columnas de 200px */
-        
-       }}
+  .Contenedor {
+    grid-template-columns: 300px; /* Cuatro columnas de 200px */
+  }
+}
 
 /*---------------------------------------------------------------------------------------------------------------*/
