@@ -108,11 +108,10 @@ body.loaded .Text-loader {
 
 /**---------------------------------------CONTENIDO Famaglo de tarjetas----------------------------------------------------*/
 .contenedor-famaglo {
-  gap: 20px; /* Espacio entre filas y columnas */
-  display: grid; 
+  gap: 20px; /* Espacio entre filas y columnas */ 
   margin: 0 px;
   transform: translateY(-1.1%);
-  height: 20px;
+  height: 76.7px;
   position: relative;
   margin-left: 0%;
   width: 100.7%; /**Medidas de ancho*/
@@ -123,7 +122,7 @@ body.loaded .Text-loader {
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease;
-  height: 104%; /**medidas de Largo*/
+  height: 993.1%; /**medidas de Largo*/
 }
 
 /**-----------Texto Principal de Bienvenida------------------*/
@@ -198,7 +197,7 @@ hr {
 }
 .menu-lateral {
   box-shadow: 
-                10px 5px 10px rgba(0, 0, 0, 0.521); /* 
+                10px 5px 10px rgba(0, 0, 0, 0.116); /* 
                     Desplazamiento horizontal: 5px (derecha)
                     Desplazamiento vertical: 5px (abajo)
                     Difuminado: 15px (más difusa)   */
