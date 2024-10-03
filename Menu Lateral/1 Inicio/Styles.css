@@ -85,41 +85,45 @@ body.loaded .Text-loader {
 
 /**-------------------------------------------------Borde de contenido de tarjetas--------------------------------------------*/
 .Contenedor {
-  margin-left: 800%; /* espacio eje x para barra lateral */
   padding: 10px;
   margin: 1;
-  gap: 20px; /* Espacio entre tarjetas */
   width: 100vh; /* el ancho del contenedor */
 }
 /**-configuración de tarjetas--*/
 .tarjetas {
   background-color: #979595;
   border-radius: 10px;
-  padding: 30px;
   text-align: center;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
   transition: transform 0.3s ease;
-  width: 920px; /* Limitar el ancho de las tarjetas */
   height: 800px;
   transform: translateX(32.5%);
+  padding: 30px;
+  margin: 50px;
+  gap: 20px; /* Espacio entre tarjetas */
+  width: 65%; /* Limitar el ancho de las tarjetas */
+  margin-left: 3.5%; /* espacio eje x para barra lateral */
+ 
 }
 
 /**---------------------------------------CONTENIDO Famaglo de tarjetas----------------------------------------------------*/
 .contenedor-famaglo {
   gap: 20px; /* Espacio entre filas y columnas */
   display: grid; 
-  margin: 0 auto;
-  position: relative;
+  margin: 0 px;
   transform: translateY(-1.1%);
+  height: 20px;
+  position: relative;
   margin-left: 0%;
   width: 100.7%; /**Medidas de ancho*/
 }
 .tarjetas-famaglo {
   background-color: #ffffff;
   border-radius: 10px;
+  padding: 20px;
   text-align: center;
   transition: transform 0.3s ease;
-  height: 254%; /**medidas de Largo*/
+  height: 104%; /**medidas de Largo*/
 }
 
 /**-----------Texto Principal de Bienvenida------------------*/
