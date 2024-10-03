@@ -83,8 +83,7 @@ body.loaded .Text-loader {
 /**---------------------------------------------------------------------------------------------------------------------------*/
 
 
-/**-----------------------------------------------*/
-
+/**-------------------------------------------------Borde de contenido de tarjetas--------------------------------------------*/
 .Contenedor {
   margin-left: 800%; /* espacio eje x para barra lateral */
   padding: 10px;
@@ -92,7 +91,7 @@ body.loaded .Text-loader {
   gap: 20px; /* Espacio entre tarjetas */
   width: 100vh; /* el ancho del contenedor */
 }
-/**-----------------------------------configuración de tarjetas-----------------------------------*/
+/**-configuración de tarjetas--*/
 .tarjetas {
   background-color: #979595;
   border-radius: 10px;
@@ -105,20 +104,10 @@ body.loaded .Text-loader {
   transform: translateX(32.5%);
 }
 
-/**---------------------------Contenido---------------------------------*/
-
-.text-tarjeta {
-  font-family: "Odibee Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
-  text-align: center;
-}
-
-/**------------------------------------------------CONTENIDO Famaglo--------------------------------------------------------*/
+/**---------------------------------------CONTENIDO Famaglo de tarjetas----------------------------------------------------*/
 .contenedor-famaglo {
   gap: 20px; /* Espacio entre filas y columnas */
-  display: grid; /* Usamos flex para centrar el contenido */
+  display: grid; 
   margin: 0 auto;
   position: relative;
   transform: translateY(-1.1%);
@@ -129,7 +118,6 @@ body.loaded .Text-loader {
   background-color: #ffffff;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
   transition: transform 0.3s ease;
   height: 254%; /**medidas de Largo*/
 }
@@ -205,6 +193,11 @@ hr {
   transform: translateY(0px);
 }
 .menu-lateral {
+  box-shadow: 
+                10px 5px 10px rgba(0, 0, 0, 0.521); /* 
+                    Desplazamiento horizontal: 5px (derecha)
+                    Desplazamiento vertical: 5px (abajo)
+                    Difuminado: 15px (más difusa)   */
   /* Fondo de la barra lateral */
    background-color: #979595;
   /* Ancho fijo de la barra lateral */
