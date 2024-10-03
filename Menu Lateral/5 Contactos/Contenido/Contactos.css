@@ -187,17 +187,32 @@ hr {
 }
 /* Estilos para los submenús dentro de los elementos del menú */
 .submenu {
-  /* Los submenús no se muestran por defecto */
   display: none; /* Ocultar los submenús inicialmente */
+  position: absolute;
+  left: 104%; /* Submenú a la derecha */
+  top: 0;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Sin viñetas */
+  z-index: 1000;
 }
 
-/* Mostrar el submenú al pasar el ratón sobre el elemento del menú */
+/* Estilos para los enlaces dentro del submenú */
+/* Mostrar submenú y cambiar su color a verde */
 .menu li:hover .submenu {
-  /* Mostramos el submenú al hacer hover sobre el elemento del menú */
-  display: block; /* Cambiamos a block para mostrar el submenú */
+  display: block;
+  background-color: transparent; /* Evita superposición de colores en todo el contenedor */
+}
 
-  /* Quitamos las viñetas del submenú */
-  list-style: none; /* Sin viñetas en el submenú */
+/* Cambiar color de los enlaces del submenú a verde cuando se muestra */
+.menu li:hover .submenu li a {
+  background-color: #69dd09; /* Color submenu**/
+}
+
+/* Cambiar color de fondo al pasar el ratón sobre los elementos del submenú */
+.submenu li a:hover {
+  
 }
 /**------------------------------------------Pie de Página----------------------------------------------------------------------------*/
 
