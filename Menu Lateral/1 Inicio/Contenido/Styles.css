@@ -285,7 +285,6 @@ width: 230px;
 /**------------------------------------------Pie de Página----------------------------------------------------------------------------*/
 
 footer {
-  position: relative;
   background-color: #979595;
   color: #000000; /* Texto*/
   text-align: center;
@@ -422,7 +421,7 @@ footer .social-media a {
         position: fixed;
         height: 500vh; 
         z-index: 1000;
-        z-index: 1000;
+     
   }
   footer {
     left: 260px;
@@ -449,7 +448,7 @@ footer .social-media a {
         position: fixed;
         height: 500vh; 
         z-index: 1000;
-        z-index: 1000;
+      
   }
   footer {
     left: 260px;
@@ -476,7 +475,7 @@ footer .social-media a {
         position: fixed;
         height: 500vh; 
         z-index: 1000;
-        z-index: 1000;
+       
   }
   footer {
     left: 260px;
@@ -503,7 +502,7 @@ footer .social-media a {
         position: fixed;
         height: 500vh; 
         z-index: 1000;
-        z-index: 1000;
+       
   }
   footer {
     left: 260px;
@@ -529,12 +528,11 @@ footer .social-media a {
         padding: 30px;
         position: fixed;
         height: 500vh; 
-        z-index: 1000;
-        z-index: 1000;
+        z-index: 5;
   }
   footer {
     left: 260px;
-    width: 154.1%; /* Añadido para mantener consistencia */
+    width: 174.1%; /* Añadido para mantener consistencia */
     height: 70px;
     transform: translateY(120px);
   }
@@ -581,7 +579,7 @@ footer .social-media a {
         position: fixed;
         height: 500vh; 
         z-index: 1000;
-        z-index: 1000;
+        
   }
   footer {
     left: 260px;
@@ -607,12 +605,11 @@ footer .social-media a {
         padding: 30px;
         position: fixed;
         height: 500vh; 
-        z-index: 1000;
-        z-index: 1000;
   }
   footer {
+    position: relative;
     left: 260px;
-    width: 154.1%; /* Añadido para mantener consistencia */
+    width: auto; /* Añadido para mantener consistencia */
     height: 70px;
     transform: translateY(120px);
   }
