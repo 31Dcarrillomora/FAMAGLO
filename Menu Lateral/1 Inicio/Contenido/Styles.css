@@ -168,9 +168,9 @@ body.loaded .Text-loader {
   margin-bottom: 10px; /* Espacio adicional por debajo del logo */
   position: relative;
   right: -1px;
-  top: -25px;
-  transform: translateX(-30px);
-  width: 200px;
+  top: -30px;
+  transform: translateX(-15px);
+  width: 150px;
   /* Tamaño del ícono */
   font-size: 24px; /* Tamaño del texto para el ícono */
   margin: 30px;
@@ -186,14 +186,14 @@ body.loaded .Text-loader {
 }
 /*---------Linea debajo del texto-------------*/
 hr {
-  background-color: rgb(5, 4, 4);
+  background-color: rgb(255, 255, 255);
   opacity: 80%;
-  width: 95%;
+  width: 112%;
   height: 2px; /* Tamaño de la línea */
   border: none;
   position: relative;
   left: -28px;
-  transform: translateY(-30px);
+  transform: translateY(-75px);
 }
 .menu-lateral {
   box-shadow: 
@@ -236,30 +236,23 @@ hr {
 }
 /* Estilos para los enlaces dentro del menú */
 .menu a { 
-
+width: 230px;
   font-family: "Bakbak One", sans-serif;
   font-weight: 400;
   font-style: normal;
   display: flex; /* Hacemos el enlace un contenedor flex */
   position: relative;
-  top: -60px;
+  top: -130px;
   transform: translateX(-10px); /**Posición x a la derecha o izquierda*/
   /* Espacio interior para hacer que los enlaces sean "clicables" en una zona más amplia */
   padding: 10px; /* Espacio interior del enlace */
   /* Eliminamos el subrayado predeterminado de los enlaces */
   text-decoration: none; /* Sin subrayado en el texto */
-
-  /* Color del texto */
-  color: #ffffff; /* Color blanco para el texto */
-
-  /* Bordes redondeados para un mejor aspecto visual */
-  border-radius: 5px; /* Esquinas redondeadas */
-
+  color: #ffffff;
+  border-radius: 5px; 
   /* Transición suave para cambios de color de fondo */
   transition: background-color 0.3s ease; /* Efecto de transición para el color de fondo */
-
-  /* Establecemos el color de fondo de los enlaces */
-  background-color: #000000; /* Fondo negro para los enlaces */
+  background-color: #000000; 
 }
 /* Estilos para los submenús dentro de los elementos del menú */
 .submenu {
