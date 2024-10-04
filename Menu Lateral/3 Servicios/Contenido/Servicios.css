@@ -211,7 +211,6 @@ footer {
   background-color: #979595;
   color: #000000; /* Texto*/
   text-align: center;
-  position: relative;
   left: 260px;
   padding: 20px 0; /* Espacio interno dentro del pie de página */
   width: 81.1%; /* Añadido para mantener consistencia */
@@ -318,9 +317,9 @@ footer .social-media a {
         padding: 30px;
         position: fixed;
         height: 500vh; 
+        z-index: 1000;
   }
   footer {
-    position: relative;
     left: 260px;
     width: 949.1%; /* Añadido para mantener consistencia */
     height: 70px;
@@ -344,9 +343,10 @@ footer .social-media a {
         padding: 30px;
         position: fixed;
         height: 500vh; 
+        z-index: 1000;
+     
   }
   footer {
-    position: relative;
     left: 260px;
     width: 549.1%; /* Añadido para mantener consistencia */
     height: 70px;
@@ -370,9 +370,10 @@ footer .social-media a {
         padding: 30px;
         position: fixed;
         height: 500vh; 
+        z-index: 1000;
+      
   }
   footer {
-    position: relative;
     left: 260px;
     width: 349.1%; /* Añadido para mantener consistencia */
     height: 70px;
@@ -396,9 +397,10 @@ footer .social-media a {
         padding: 30px;
         position: fixed;
         height: 500vh; 
+        z-index: 1000;
+       
   }
   footer {
-    position: relative;
     left: 260px;
     width: 259.1%; /* Añadido para mantener consistencia */
     height: 70px;
@@ -422,9 +424,10 @@ footer .social-media a {
         padding: 30px;
         position: fixed;
         height: 500vh; 
+        z-index: 1000;
+       
   }
   footer {
-    position: relative;
     left: 260px;
     width: 209.1%; /* Añadido para mantener consistencia */
     height: 70px;
@@ -448,11 +451,11 @@ footer .social-media a {
         padding: 30px;
         position: fixed;
         height: 500vh; 
+        z-index: 5;
   }
   footer {
-    position: relative;
     left: 260px;
-    width: 154.1%; /* Añadido para mantener consistencia */
+    width: 174.1%; /* Añadido para mantener consistencia */
     height: 70px;
     transform: translateY(120px);
   }
@@ -462,7 +465,7 @@ footer .social-media a {
 @media (min-width: 700px) {
   .Contenedor {
     display: grid;
-    grid-template-columns: 350px; /* Cuatro columnas de 200px */
+    grid-template-columns: 350px auto; /* Cuatro columnas de 200px */
   }
     .tarjetas{
       transform: translateX(299px);
@@ -470,13 +473,11 @@ footer .social-media a {
     }
       .menu-lateral {
         width: 220px;
-        /* Espacio interior alrededor del contenido */
-        padding: 30px;
         position: fixed;
-        height: 500vh; 
+        height: 180vh; 
+        z-index: 10000;
   }
   footer {
-    position: relative;
     left: 260px;
     width: 154.1%; /* Añadido para mantener consistencia */
     height: 70px;
@@ -500,9 +501,10 @@ footer .social-media a {
         padding: 30px;
         position: fixed;
         height: 500vh; 
+        z-index: 1000;
+        
   }
   footer {
-    position: relative;
     left: 260px;
     width: 154.1%; /* Añadido para mantener consistencia */
     height: 70px;
@@ -522,7 +524,7 @@ footer .social-media a {
     }
       .menu-lateral {
         width: 220px;
-        /* Espacio interior alrededor del contenido */
+        /* Espacio interior  alrededor del contenido */
         padding: 30px;
         position: fixed;
         height: 500vh; 
@@ -530,7 +532,7 @@ footer .social-media a {
   footer {
     position: relative;
     left: 260px;
-    width: 154.1%; /* Añadido para mantener consistencia */
+    width: auto; /* Añadido para mantener consistencia */
     height: 70px;
     transform: translateY(120px);
   }
@@ -541,6 +543,17 @@ footer .social-media a {
   .Contenedor {
     grid-template-columns: 350px; /* Cuatro columnas de 200px */
   }
+.menu-lateral {
+  position: fixed;
+  z-index: 1000;
+}
+
+  footer {
+    left: 260px;
+    width: 154.1%; /* Añadido para mantener consistencia */
+    height: 70px;
+    transform: translateY(120px);
+  }
 }
 
 /* Para pantallas medianas (tablets) */
@@ -548,12 +561,34 @@ footer .social-media a {
   .Contenedor {
     grid-template-columns: 350px; /* Cuatro columnas de 200px */
   }
+
+  .menu-lateral {
+    position: fixed;
+    z-index: 1000;
+}
+  footer {
+    left: 260px;
+    width: 137.1%; /* Añadido para mantener consistencia */
+    height: 70px;
+    transform: translateY(120px);
+  }
 }
 
 /* Para pantallas grandes (laptops y escritorios) */
 @media (min-width: 1025px) {
   .Contenedor {
     grid-template-columns: 300px; /* Cuatro columnas de 200px */
+  }
+  .menu-lateral {
+    position: fixed;
+    z-index: 1000;
+}
+
+  footer {
+    left: 260px;
+    width: 81.1%; /* Añadido para mantener consistencia */
+    height: 70px;
+    transform: translateY(120px);
   }
 }
 
