@@ -399,11 +399,9 @@ footer .social-media a {
   }
   footer {
     position: relative;
-    width:675.7%;
-  height: 100px;
+    width:680.9%;
     margin-left: 1px;
-    text-align: center;
-    left: 20px;
+    transform: translateY(-10px);
   }
 }
 
@@ -427,11 +425,9 @@ footer .social-media a {
   }
     footer {
       position: relative;
-      width:675.7%;
-    height: 100px;
-      margin-left: 1px;
-      text-align: center;
-      left: 20px;
+    width:680.9%;
+    margin-left: 1px;
+    transform: translateY(-10px);
     }
   }
 
@@ -455,11 +451,9 @@ footer .social-media a {
   }
   footer {
     position: relative;
-      width:435.7%;
-    height: 100px;
-      margin-left: 1px;
-      text-align: center;
-      left: 20px;
+    width:440.9%;
+    margin-left: 1px;
+    transform: translateY(-10px);
   }
 }
 
@@ -483,10 +477,9 @@ footer .social-media a {
   }
   footer {
     position: relative;
-      width:325.7%;
-    height: 100px;
-      margin-left: 1px;
-      left: 20px;
+    width:325.9%;
+    margin-left: 1px;
+    transform: translateY(-10px);
   }
 }
 
@@ -511,10 +504,9 @@ footer .social-media a {
   }
   footer {
     position: relative;
-      width:210.7%;
-    height: 100px;
-      margin-left: 1px;
-      transform: translateY(50px);
+    width:257.9%;
+    margin-left: 1px;
+    transform: translateY(-10px);
   }
 }
 
@@ -539,10 +531,9 @@ footer .social-media a {
 
     footer {
       position: relative;
-      width:175.7%;
-    height: 100px;
-      margin-left: 1px;
-      transform: translateY(-0px);
+          width:216.9%;
+          margin-left: 1px;
+          transform: translateY(-10px);
     }}
 
 /* desconocido (más de 700px) */
@@ -563,10 +554,9 @@ footer .social-media a {
         height: 500vh; }
         footer {
           position: relative;
-    max-width:149.7%;
-    height: 30%;
-    margin-left: 1px;
-    transform: translateY(-0px);
+          width:184.9%;
+          margin-left: 1px;
+          transform: translateY(-10px);
         }
       }
 
@@ -590,7 +580,7 @@ footer .social-media a {
   }
   footer {
     position: relative;
-    max-width:130.5%;
+    width:163.5%;
     margin-left: 1px;
     transform: translateY(-10px);
   }
@@ -615,7 +605,7 @@ footer .social-media a {
   }
   footer {
     position: relative;
-    max-width:117%;
+    width:143.5%;
     margin-left: 1px;
     transform: translateY(-10px);
   }
@@ -632,7 +622,7 @@ footer .social-media a {
 }
 footer {
   position: relative;
-  max-width:105%; /* Añadido para mantener consistencia */
+  width:130%; /* Añadido para mantener consistencia */
   height: 100px;
   transform: translateY(120px);
 }
@@ -651,7 +641,7 @@ footer {
 
     footer {
       position: relative;
-      width: 137%; /* Añadido para mantener consistencia */
+      max-width: 169%; /* Añadido para mantener consistencia */
       height: 130px;
       transform: translateY(120px);
     }
@@ -668,7 +658,7 @@ footer {
 }
 footer {
   position: relative;
-  width: 81%; /* Añadido para mantener consistencia */
+  width: 125.7%; /* Añadido para mantener consistencia */
   height: 120px;
   transform: translateY(120px);
 }
