@@ -13,6 +13,7 @@ html {
 }
 /**-configuración de tarjetas--*/
 .tarjetas {
+  display: grid;
   background-color: #979595;
   border-radius: 10px;
   text-align: center;
@@ -23,20 +24,22 @@ html {
   padding: 30px;
   margin: 50px;
   gap: 20px; /* Espacio entre tarjetas */
-  width: 65%; /* Limitar el ancho de las tarjetas */
+  position: relative;
+  width: 25%; /* Limitar el ancho de las tarjetas */
   margin-left: 3.5%; /* espacio eje x para barra lateral */
  
 }
 
 /**---------------------------------------CONTENIDO Famaglo de tarjetas----------------------------------------------------*/
 .contenedor-famaglo {
+  display: grid;
   gap: 20px; /* Espacio entre filas y columnas */ 
   margin: 0 px;
   transform: translateY(-1.1%);
-  height: 76.7px;
+  height: 16.7px;
   position: relative;
   margin-left: 0%;
-  width: 100.7%; /**Medidas de ancho*/
+  width: 40.7%; /**Medidas de ancho*/
 }
 .tarjetas-famaglo {
   background-color: #ffffff;
@@ -53,7 +56,7 @@ html {
   font-weight: 400;
   font-style: normal;
   color: rgb(0, 0, 0);
-  font-size: 35px;
+  font-size: 25px;
   padding: 30px;
   position: relative;
   left: 545px;
@@ -67,7 +70,8 @@ html {
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
-  color: #fcb045;
+  color: #ee1010;
+  background-color: #000000;
   position: relative;
 }
 /**-----------Párrafo------------------*/
@@ -577,8 +581,81 @@ footer .social-media a {
 /* Para pantallas grandes (laptops y escritorios) */
 @media (min-width: 1025px) {
   .Contenedor {
-    grid-template-columns: 300px; /* Cuatro columnas de 200px */
+
   }
+  .tarjetas{
+    transform: translateX(265px);
+    position: relative;
+    width:929px;
+    height: 300px;
+
+  }
+  .tarjetas-famaglo{
+    gap: 10px;
+    position: relative;
+    top: 20px;
+    transform: translateX(25px);
+    height: 280px;
+}
+.contenedor-famaglo{
+  grid-template-columns: 300px 300px 300px;
+  position: absolute;
+
+  
+}
+
+/**------------------------------*/
+
+.Titulo-tarjetas-Famaglo {
+  font-size: 30px;
+  z-index: 100;
+  top: -50px;
+}
+.IMG-camisas{
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 150px;
+  height: 150px;
+}
+.IMG-camisas-ILUMINADO{
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  width: 200px;
+  height: 150PX;
+}
+
+.IMG-camisas-A-FUEGO{
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  width: 150px;
+  height: 190PX;
+}
+
+.IMG-camisas-terror-SAUTH-PARK{
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  width: 180px;
+  height: 150PX;
+}
+
+
+.precio{
+  font-size: 20px;
+  position: relative;
+  top: 100px;
+  text-align: start;
+
+}
+
+.p-contenido{
+  transform: translateY(70px);
+
+}
+/**------------------------------*/
   .menu-lateral {
     position: fixed;
     z-index: 1000;

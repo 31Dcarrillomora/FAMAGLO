@@ -658,7 +658,7 @@ footer {
 }
 footer {
   position: relative;
-  width: 125.7%; /* Añadido para mantener consistencia */
+  width: 100.5%; /* Añadido para mantener consistencia */
   height: 120px;
   transform: translateY(120px);
 }
