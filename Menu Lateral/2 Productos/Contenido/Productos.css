@@ -605,8 +605,8 @@ footer .social-media a {
   
     transform: translateX(265px);
     position: relative;
-    width:929px;
-    height: 300px;
+    width:800px;
+    height: 800px;
   
   }
   .tarjetas-famaglo{
@@ -614,7 +614,8 @@ footer .social-media a {
     position: relative;
     top: 20px;
     transform: translateX(25px);
-    height: 280px;
+    width: 769px;
+    height: 780px;
   }
   .contenedor-famaglo{
   grid-template-columns: 300px ;
@@ -631,46 +632,46 @@ footer .social-media a {
   }
   .IMG-camisas{
   position: absolute;
-  top: 60px;
-  left: 60px;
-  width: 150px;
-  height: 150px;
+  top: 80px;
+  left: 50px;
+  width: 600px;
+  height: 600px;
   }
   .IMG-camisas-ILUMINADO{
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 200px;
-  height: 150PX;
+  width: 700px;
+  height: 700px;
   }
   
   .IMG-camisas-A-FUEGO{
   position: absolute;
   top: 60px;
   left: 70px;
-  width: 150px;
-  height: 190PX;
+  width: 700px;
+  height: 700px;
   }
   
   .IMG-camisas-terror-SAUTH-PARK{
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 180px;
-  height: 150PX;
+  width: 700px;
+  height: 700px;
   }
   
   
   .precio{
-  font-size: 20px;
-  position: relative;
-  top: 100px;
+  font-size: 50px;
+  transform: translateY(430px);
   text-align: start;
   
   }
   
   .p-contenido{
-  transform: translateY(70px);
+  transform: translateY(450px);
+  font-size: 50px;
   
   }
   /**------------------------------*/
@@ -693,10 +694,11 @@ footer .social-media a {
   .Contenedor {
     display: grid;
     grid-template-columns: 350px; /* Cuatro columnas de 200px */
+    
   }
     .tarjetas{
       transform: translateX(299px);
-      width: 850px;
+      width:820px;
     }
       .menu-lateral {
         width: 220px;
@@ -721,7 +723,7 @@ footer .social-media a {
     transform: translateX(265px);
     position: relative;
     width:929px;
-    height: 300px;
+    height: 929px;
   
   }
   .tarjetas-famaglo{
@@ -729,10 +731,10 @@ footer .social-media a {
     position: relative;
     top: 20px;
     transform: translateX(25px);
-    height: 280px;
+    height: 580px;
   }
   .contenedor-famaglo{
-  grid-template-columns: 300px ;
+  grid-template-columns: 900px ;
   position: absolute;
   
   }
@@ -747,9 +749,9 @@ footer .social-media a {
   .IMG-camisas{
   position: absolute;
   top: 60px;
-  left: 60px;
-  width: 150px;
-  height: 150px;
+  left: 180px;
+  width: 550px;
+  height: 550px;
   }
   .IMG-camisas-ILUMINADO{
   position: absolute;
@@ -809,7 +811,7 @@ footer .social-media a {
   
     transform: translateX(265px);
     position: relative;
-    width:929px;
+    width:820px;
     height: 300px;
   
   }
@@ -987,7 +989,7 @@ footer .social-media a {
   
     transform: translateX(265px);
     position: relative;
-    width:929px;
+    width:820px;
     height: 300px;
   
   }
