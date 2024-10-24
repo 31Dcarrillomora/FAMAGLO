@@ -603,11 +603,7 @@ footer .social-media a {
     transform: translateX(299px);
     position: relative;
     width: 700px;
-<<<<<<< HEAD
     height: 700px;
-=======
-    height: 500px;
->>>>>>> a0821a2c58d9cefb112de0c260c615d7eb8a1604
   
   }
   .tarjetas-famaglo{
@@ -615,16 +611,11 @@ footer .social-media a {
     top: 20px;
     transform: translateX(25px);
     width: 670px;
-<<<<<<< HEAD
     height: 680px;
-=======
-    height: 480px;
->>>>>>> a0821a2c58d9cefb112de0c260c615d7eb8a1604
   }
   .contenedor-famaglo{
   grid-template-columns: 1fr  ;
 grid-row: 100px;
-  
   }
   
 /**------------------------------*/
@@ -636,88 +627,54 @@ grid-row: 100px;
 }
 .IMG-camisas{
   position: absolute;
-  top: 15px;
-<<<<<<< HEAD
+  top: 60px;
   left: 100px;
-  width: 530px;
-  height: 540px;
-=======
-  left: 130px;
-  width: 430px;
-  height: 430px;
->>>>>>> a0821a2c58d9cefb112de0c260c615d7eb8a1604
+  width: 500px;
+  height: 500px;
 }
 .IMG-camisas-ILUMINADO{
   position: absolute;
   top: 60px;
   left: 50px;
-<<<<<<< HEAD
-  left: 100px;
-  width: 530px;
-=======
-  width: 430px;
-  height: 430px;
->>>>>>> a0821a2c58d9cefb112de0c260c615d7eb8a1604
+  width: 500px;
+  height: 500px;
 }
-
 .IMG-camisas-A-FUEGO{
   position: absolute;
   top: 60px;
   left: 70px;
-<<<<<<< HEAD
-  left: 100px;
-  width: 530px;
-=======
-  width: 430px;
-  height: 430px;
->>>>>>> a0821a2c58d9cefb112de0c260c615d7eb8a1604
+  width: 500px;
+  height: 500px;
 }
 
 .IMG-camisas-terror-SAUTH-PARK{
   position: absolute;
   top: 0px;
-  left: 50px;
-<<<<<<< HEAD
   left: 100px;
-  width: 530px;
-=======
-  width: 430px;
-  height: 430px;
->>>>>>> a0821a2c58d9cefb112de0c260c615d7eb8a1604
+  width: 500px;
+  height: 500px;
 }
-
-
 .precio{
   font-size: 50px;
-<<<<<<< HEAD
   transform: translateY(400px);
-=======
-  transform: translateY(520px);
->>>>>>> a0821a2c58d9cefb112de0c260c615d7eb8a1604
   text-align: start; position: relative;
   left: 20px;
 
 }
-
 .p-contenido{
-<<<<<<< HEAD
   transform: translateY(330px);
-=======
-  transform: translateY(450px);
->>>>>>> a0821a2c58d9cefb112de0c260c615d7eb8a1604
   font-size: 50px;
   text-align: start;
-
 }
 /**------------------------------*/
   .menu-lateral {
     position: fixed;
+    height: 900px;
     z-index: 1000;
   }
-  
   footer {
     left: 260px;
-    width: 81.1%; /* Añadido para mantener consistencia */
+    width: 295.1%; /* Añadido para mantener consistencia */
     height: 70px;
     transform: translateY(120px);
   }
