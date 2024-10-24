@@ -326,7 +326,9 @@ footer .social-media a {
     height: 780px;
   }
   .contenedor-famaglo{
-  grid-template-columns: 300px ;
+  grid-template-columns: 300px  ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 100px;
   position: absolute;
   
   }
@@ -340,8 +342,8 @@ footer .social-media a {
 }
 .IMG-camisas{
   position: absolute;
-  top: 60px;
-  left: 60px;
+  top: 90px;
+  left: 150px;
   width: 500px;
   height: 500px;
 }
@@ -349,38 +351,38 @@ footer .social-media a {
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 200px;
-  height: 150PX;
+  width: 500px;
+  height: 500px;
 }
 
 .IMG-camisas-A-FUEGO{
   position: absolute;
   top: 60px;
   left: 70px;
-  width: 150px;
-  height: 190PX;
+  width: 500px;
+  height: 500PX;
 }
 
 .IMG-camisas-terror-SAUTH-PARK{
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 180px;
-  height: 150PX;
+  width: 500px;
+  height: 500PX;
 }
 
 
 .precio{
-  font-size: 20px;
-  transform: translateY(0px);
+  font-size: 50px;
+  transform: translateY(520px);
   text-align: start; position: relative;
   left: 20px;
 
 }
 
 .p-contenido{
-  transform: translateY(70px);
-  font-size: 20px;
+  transform: translateY(450px);
+  font-size: 50px;
   text-align: start;
 
 }
@@ -397,6 +399,7 @@ footer .social-media a {
     transform: translateY(120px);
   }
   }
+  
   
 
 /* desconocido (más de 200px) */
@@ -418,12 +421,14 @@ footer .social-media a {
     height: 780px;
   }
   .contenedor-famaglo{
-  grid-template-columns: 300px ;
+  grid-template-columns: 300px  ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 100px;
   position: absolute;
   
   }
   
- /**------------------------------*/
+/**------------------------------*/
 
 .Titulo-tarjetas-Famaglo {
   font-size: 30px;
@@ -432,47 +437,47 @@ footer .social-media a {
 }
 .IMG-camisas{
   position: absolute;
-  top: 60px;
-  left: 60px;
-  width: 150px;
-  height: 150px;
+  top: 90px;
+  left: 150px;
+  width: 500px;
+  height: 500px;
 }
 .IMG-camisas-ILUMINADO{
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 200px;
-  height: 150PX;
+  width: 500px;
+  height: 500px;
 }
 
 .IMG-camisas-A-FUEGO{
   position: absolute;
   top: 60px;
   left: 70px;
-  width: 150px;
-  height: 190PX;
+  width: 500px;
+  height: 500PX;
 }
 
 .IMG-camisas-terror-SAUTH-PARK{
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 180px;
-  height: 150PX;
+  width: 500px;
+  height: 500PX;
 }
 
 
 .precio{
-  font-size: 20px;
-  transform: translateY(0px);
+  font-size: 50px;
+  transform: translateY(520px);
   text-align: start; position: relative;
   left: 20px;
 
 }
 
 .p-contenido{
-  transform: translateY(70px);
-  font-size: 20px;
+  transform: translateY(450px);
+  font-size: 50px;
   text-align: start;
 
 }
@@ -489,6 +494,7 @@ footer .social-media a {
     transform: translateY(120px);
   }
   }
+  
   
 
 
@@ -511,7 +517,9 @@ footer .social-media a {
     height: 780px;
   }
   .contenedor-famaglo{
-  grid-template-columns: 300px ;
+  grid-template-columns: 300px  ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 100px;
   position: absolute;
   
   }
@@ -525,47 +533,47 @@ footer .social-media a {
 }
 .IMG-camisas{
   position: absolute;
-  top: 60px;
-  left: 60px;
-  width: 150px;
-  height: 150px;
+  top: 90px;
+  left: 150px;
+  width: 500px;
+  height: 500px;
 }
 .IMG-camisas-ILUMINADO{
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 200px;
-  height: 150PX;
+  width: 500px;
+  height: 500px;
 }
 
 .IMG-camisas-A-FUEGO{
   position: absolute;
   top: 60px;
   left: 70px;
-  width: 150px;
-  height: 190PX;
+  width: 500px;
+  height: 500PX;
 }
 
 .IMG-camisas-terror-SAUTH-PARK{
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 180px;
-  height: 150PX;
+  width: 500px;
+  height: 500PX;
 }
 
 
 .precio{
-  font-size: 20px;
-  transform: translateY(0px);
+  font-size: 50px;
+  transform: translateY(520px);
   text-align: start; position: relative;
   left: 20px;
 
 }
 
 .p-contenido{
-  transform: translateY(70px);
-  font-size: 20px;
+  transform: translateY(450px);
+  font-size: 50px;
   text-align: start;
 
 }
@@ -587,25 +595,27 @@ footer .social-media a {
 
 /* desconocido (más de 400px) */
 @media (min-width: 400px) {
+  .Contenedor{
+    
+  }
   .tarjetas{
-  
-    transform: translateX(265px);
+  display: grid;
+    transform: translateX(299px);
     position: relative;
-    width:800px;
-    height: 800px;
+    width: 700px;
+    height: 500px;
   
   }
   .tarjetas-famaglo{
-    gap: 10px;
     position: relative;
     top: 20px;
     transform: translateX(25px);
-    width: 769px;
-    height: 780px;
+    width: 670px;
+    height: 480px;
   }
   .contenedor-famaglo{
-  grid-template-columns: 300px ;
-  position: absolute;
+  grid-template-columns: 1fr  ;
+grid-row: 100px;
   
   }
   
@@ -618,47 +628,47 @@ footer .social-media a {
 }
 .IMG-camisas{
   position: absolute;
-  top: 60px;
-  left: 60px;
-  width: 150px;
-  height: 150px;
+  top: 15px;
+  left: 130px;
+  width: 430px;
+  height: 430px;
 }
 .IMG-camisas-ILUMINADO{
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 200px;
-  height: 150PX;
+  width: 430px;
+  height: 430px;
 }
 
 .IMG-camisas-A-FUEGO{
   position: absolute;
   top: 60px;
   left: 70px;
-  width: 150px;
-  height: 190PX;
+  width: 430px;
+  height: 430px;
 }
 
 .IMG-camisas-terror-SAUTH-PARK{
   position: absolute;
-  top: 60px;
+  top: 0px;
   left: 50px;
-  width: 180px;
-  height: 150PX;
+  width: 430px;
+  height: 430px;
 }
 
 
 .precio{
-  font-size: 20px;
-  transform: translateY(0px);
+  font-size: 50px;
+  transform: translateY(520px);
   text-align: start; position: relative;
   left: 20px;
 
 }
 
 .p-contenido{
-  transform: translateY(70px);
-  font-size: 20px;
+  transform: translateY(450px);
+  font-size: 50px;
   text-align: start;
 
 }
@@ -675,6 +685,7 @@ footer .social-media a {
     transform: translateY(120px);
   }
   }
+  
   
 
 
@@ -697,12 +708,14 @@ footer .social-media a {
     height: 780px;
   }
   .contenedor-famaglo{
-  grid-template-columns: 300px ;
+  grid-template-columns: 300px  ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 100px;
   position: absolute;
   
   }
   
- /**------------------------------*/
+/**------------------------------*/
 
 .Titulo-tarjetas-Famaglo {
   font-size: 30px;
@@ -711,47 +724,47 @@ footer .social-media a {
 }
 .IMG-camisas{
   position: absolute;
-  top: 60px;
-  left: 60px;
-  width: 150px;
-  height: 150px;
+  top: 90px;
+  left: 150px;
+  width: 500px;
+  height: 500px;
 }
 .IMG-camisas-ILUMINADO{
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 200px;
-  height: 150PX;
+  width: 500px;
+  height: 500px;
 }
 
 .IMG-camisas-A-FUEGO{
   position: absolute;
   top: 60px;
   left: 70px;
-  width: 150px;
-  height: 190PX;
+  width: 500px;
+  height: 500PX;
 }
 
 .IMG-camisas-terror-SAUTH-PARK{
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 180px;
-  height: 150PX;
+  width: 500px;
+  height: 500PX;
 }
 
 
 .precio{
-  font-size: 20px;
-  transform: translateY(0px);
+  font-size: 50px;
+  transform: translateY(520px);
   text-align: start; position: relative;
   left: 20px;
 
 }
 
 .p-contenido{
-  transform: translateY(70px);
-  font-size: 20px;
+  transform: translateY(450px);
+  font-size: 50px;
   text-align: start;
 
 }
@@ -789,7 +802,9 @@ footer .social-media a {
     height: 780px;
   }
   .contenedor-famaglo{
-  grid-template-columns: 300px ;
+  grid-template-columns: 300px  ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 100px;
   position: absolute;
   
   }
@@ -803,47 +818,47 @@ footer .social-media a {
 }
 .IMG-camisas{
   position: absolute;
-  top: 60px;
-  left: 60px;
-  width: 150px;
-  height: 150px;
+  top: 90px;
+  left: 150px;
+  width: 500px;
+  height: 500px;
 }
 .IMG-camisas-ILUMINADO{
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 200px;
-  height: 150PX;
+  width: 500px;
+  height: 500px;
 }
 
 .IMG-camisas-A-FUEGO{
   position: absolute;
   top: 60px;
   left: 70px;
-  width: 150px;
-  height: 190PX;
+  width: 500px;
+  height: 500PX;
 }
 
 .IMG-camisas-terror-SAUTH-PARK{
   position: absolute;
   top: 60px;
   left: 50px;
-  width: 180px;
-  height: 150PX;
+  width: 500px;
+  height: 500PX;
 }
 
 
 .precio{
-  font-size: 20px;
-  transform: translateY(0px);
+  font-size: 50px;
+  transform: translateY(520px);
   text-align: start; position: relative;
   left: 20px;
 
 }
 
 .p-contenido{
-  transform: translateY(70px);
-  font-size: 20px;
+  transform: translateY(450px);
+  font-size: 50px;
   text-align: start;
 
 }
@@ -860,6 +875,7 @@ footer .social-media a {
     transform: translateY(120px);
   }
   }
+  
   
 
 
@@ -955,6 +971,106 @@ footer .social-media a {
     transform: translateY(120px);
   }
   }
+
+  /* Para pantallas medianas (tablets) */
+@media (min-width: 768px) {
+
+  .Contenedor {
+   
+
+  }
+  .tarjetas{
+    transform: translateX(265px);
+    position: relative;
+    width:759px;
+    height: 300px;
+    left: 20px;
+    
+
+  }
+  .tarjetas-famaglo{
+    position: relative;
+    top: 20px;
+    transform: translateX(20px);
+    width: 240px;
+    height: 280px;
+}
+.contenedor-famaglo{
+  grid-template-columns: 200px 200px 200px;
+  position: absolute;
+  gap: 49px;
+
+  
+}
+
+/**------------------------------*/
+
+.Titulo-tarjetas-Famaglo {
+  font-size: 30px;
+  z-index: 100;
+  top: -50px;
+}
+.IMG-camisas{
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 150px;
+  height: 150px;
+}
+.IMG-camisas-ILUMINADO{
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  width: 200px;
+  height: 150PX;
+}
+
+.IMG-camisas-A-FUEGO{
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  width: 150px;
+  height: 190PX;
+}
+
+.IMG-camisas-terror-SAUTH-PARK{
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  width: 180px;
+  height: 150PX;
+}
+
+
+.precio{
+  font-size: 20px;
+  transform: translateY(100px);
+  text-align: start; position: relative;
+  left: 20px;
+
+}
+
+.p-contenido{
+  transform: translateY(70px);
+  font-size: 20px;
+  text-align: start;
+
+}
+/**------------------------------*/
+  .menu-lateral {
+    position: fixed;
+    z-index: 1000;
+}
+
+  footer {
+    left: 260px;
+    width: 155.6%; /* Añadido para mantener consistencia */
+    height: 70px;
+    transform: translateY(120px);
+  }
+}
+
+
   
 
 
@@ -1142,188 +1258,6 @@ footer .social-media a {
 
 /* desconocido (más de 1000px) ----*/
 @media (min-width: 1000px) {
-  .tarjetas{
-  
-    transform: translateX(265px);
-    position: relative;
-    width:820px;
-    height: 300px;
-  
-  }
-  .tarjetas-famaglo{
-    gap: 10px;
-    position: relative;
-    top: 20px;
-    transform: translateX(25px);
-    height: 280px;
-  }
-  .contenedor-famaglo{
-  grid-template-columns: 300px;
-  position: absolute;
-  
-  }
-  
- /**------------------------------*/
-
-.Titulo-tarjetas-Famaglo {
-  font-size: 30px;
-  z-index: 100;
-  top: -50px;
-}
-.IMG-camisas{
-  position: absolute;
-  top: 60px;
-  left: 60px;
-  width: 150px;
-  height: 150px;
-}
-.IMG-camisas-ILUMINADO{
-  position: absolute;
-  top: 60px;
-  left: 50px;
-  width: 200px;
-  height: 150PX;
-}
-
-.IMG-camisas-A-FUEGO{
-  position: absolute;
-  top: 60px;
-  left: 70px;
-  width: 150px;
-  height: 190PX;
-}
-
-.IMG-camisas-terror-SAUTH-PARK{
-  position: absolute;
-  top: 60px;
-  left: 50px;
-  width: 180px;
-  height: 150PX;
-}
-
-
-.precio{
-  font-size: 20px;
-  transform: translateY(0px);
-  text-align: start; position: relative;
-  left: 20px;
-
-}
-
-.p-contenido{
-  transform: translateY(70px);
-  font-size: 20px;
-  text-align: start;
-
-}
-/**------------------------------*/
-  .menu-lateral {
-    position: fixed;
-    z-index: 1000;
-  }
-  
-  footer {
-    left: 260px;
-    width: 81.1%; /* Añadido para mantener consistencia */
-    height: 70px;
-    transform: translateY(120px);
-  }
-  }
-  
-
-/* Para pantallas medianas (tablets) */
-@media (min-width: 768px) {
-.tarjetas{
-  
-  transform: translateX(265px);
-  position: relative;
-  width:929px;
-  height: 300px;
-
-}
-.tarjetas-famaglo{
-  gap: 10px;
-  position: relative;
-  top: 20px;
-  transform: translateX(25px);
-  height: 280px;
-}
-.contenedor-famaglo{
-grid-template-columns: 300px 300px 300px;
-position: absolute;
-
-}
-
-/**------------------------------*/
-
-.Titulo-tarjetas-Famaglo {
-  font-size: 30px;
-  z-index: 100;
-  top: -50px;
-}
-.IMG-camisas{
-  position: absolute;
-  top: 60px;
-  left: 60px;
-  width: 150px;
-  height: 150px;
-}
-.IMG-camisas-ILUMINADO{
-  position: absolute;
-  top: 60px;
-  left: 50px;
-  width: 200px;
-  height: 150PX;
-}
-
-.IMG-camisas-A-FUEGO{
-  position: absolute;
-  top: 60px;
-  left: 70px;
-  width: 150px;
-  height: 190PX;
-}
-
-.IMG-camisas-terror-SAUTH-PARK{
-  position: absolute;
-  top: 60px;
-  left: 50px;
-  width: 180px;
-  height: 150PX;
-}
-
-
-.precio{
-  font-size: 20px;
-  transform: translateY(0px);
-  text-align: start; position: relative;
-  left: 20px;
-
-}
-
-.p-contenido{
-  transform: translateY(70px);
-  font-size: 20px;
-  text-align: start;
-
-}
-/**------------------------------*/
-.menu-lateral {
-  position: fixed;
-  z-index: 1000;
-}
-
-footer {
-  left: 260px;
-  width: 81.1%; /* Añadido para mantener consistencia */
-  height: 70px;
-  transform: translateY(120px);
-}
-}
-
-
-/* Para pantallas grandes (laptops y escritorios) */
-@media (min-width: 1025px) {
   .Contenedor {
    
 
@@ -1418,5 +1352,107 @@ footer {
     transform: translateY(120px);
   }
 }
+
+
+  
+/* Para pantallas grandes (laptops y escritorios) */
+@media (min-width: 1100px) {
+  .Contenedor {
+   
+
+  }
+  .tarjetas{
+    transform: translateX(265px);
+    position: relative;
+    width:959px;
+    height: 300px;
+    left: -20px;
+    
+
+  }
+  .tarjetas-famaglo{
+    position: relative;
+    top: 20px;
+    transform: translateX(20px);
+    width: 240px;
+    height: 280px;
+}
+.contenedor-famaglo{
+  grid-template-columns: 300px 300px 300px;
+  position: absolute;
+  gap: 49px;
+
+  
+}
+
+/**------------------------------*/
+
+.Titulo-tarjetas-Famaglo {
+  font-size: 30px;
+  z-index: 100;
+  top: -50px;
+}
+.IMG-camisas{
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 150px;
+  height: 150px;
+}
+.IMG-camisas-ILUMINADO{
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  width: 200px;
+  height: 150PX;
+}
+
+.IMG-camisas-A-FUEGO{
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  width: 150px;
+  height: 190PX;
+}
+
+.IMG-camisas-terror-SAUTH-PARK{
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  width: 180px;
+  height: 150PX;
+}
+
+
+.precio{
+  font-size: 20px;
+  transform: translateY(100px);
+  text-align: start; position: relative;
+  left: 20px;
+
+}
+
+.p-contenido{
+  transform: translateY(70px);
+  font-size: 20px;
+  text-align: start;
+
+}
+/**------------------------------*/
+  .menu-lateral {
+    position: fixed;
+    z-index: 1000;
+}
+
+  footer {
+    left: 260px;
+    width: 100.6%; /* Añadido para mantener consistencia */
+    height: 70px;
+    transform: translateY(120px);
+  }
+}
+
+
+
 
 /*---------------------------------------------------------------------------------------------------------------*/
