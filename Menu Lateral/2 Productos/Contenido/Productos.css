@@ -2,6 +2,8 @@ html {
  background-color: #ffffff;
   background-size: 100%;
   width: 100%;
+  touch-action: manipulation;
+  -ms-touch-action: manipulation;
 }
 
 
@@ -880,9 +882,9 @@ footer .social-media a {
     height: 780px;
   }
   .contenedor-famaglo{
-  grid-template-columns: 300px;
-  grid-template-rows: 900px 900px;
-  gap: 50px;
+  grid-template-columns: 300px  ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 100px;
   position: absolute;
   
   }
@@ -1323,26 +1325,29 @@ footer {
 /* Para pantallas grandes (laptops y escritorios) */
 @media (min-width: 1025px) {
   .Contenedor {
+   
 
   }
   .tarjetas{
     transform: translateX(265px);
     position: relative;
-    width:929px;
+    width:959px;
     height: 300px;
+    left: -20px;
+    
 
   }
   .tarjetas-famaglo{
-    gap: 10px;
     position: relative;
     top: 20px;
-    transform: translateX(25px);
-    width: 260px;
+    transform: translateX(20px);
+    width: 240px;
     height: 280px;
 }
 .contenedor-famaglo{
   grid-template-columns: 300px 300px 300px;
   position: absolute;
+  gap: 49px;
 
   
 }
@@ -1388,7 +1393,7 @@ footer {
 
 .precio{
   font-size: 20px;
-  transform: translateY(0px);
+  transform: translateY(100px);
   text-align: start; position: relative;
   left: 20px;
 
